@@ -1,0 +1,290 @@
+body{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.nav__inner{
+    display: flex;
+    gap: 50px;
+}
+
+.nav__link{
+    line-height: 28px;
+    
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
+
+.header__page{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.header__info-headline {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.header__info-title {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+    padding-bottom: 40px;
+}
+.header__info-subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.awards{
+    padding-top: 100px;
+}
+
+.awards__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+    align-items: center;
+    border-top: 2px solid #aaa;
+    border-bottom: 2px solid #aaa;
+}
+
+.skills{
+    padding-bottom: 180px;
+}
+
+.skills__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 180px 50px 0;
+}
+
+.skills__img{
+    padding-bottom: 56px;
+}
+
+.skills__block{
+    width: 249.9px; 
+    text-align: center;
+    color: #2D2D2D;
+}
+
+.skills__block-title {
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 42px;
+    padding-bottom: 19px;
+}
+
+.latest-work{
+    padding-bottom: 100px;
+}
+
+.latest-work__title{
+    text-align: center;
+    padding-bottom: 60px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.latest-work__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.latest__block{
+    width: 315px;
+    height: 407px;
+    padding-bottom: 60px;
+}
+
+.latest__img{
+    padding-bottom: 25px;
+}
+
+.latest__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.latest__subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.clients__block{
+    width: 315px;
+    height: 344px;
+    border: 2px solid #FFD285;
+}
+
+.clients__title {
+    text-align: center;
+    padding-bottom: 55px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 33px;
+}
+
+.clients__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.clients__block-comments {
+    margin: 0 auto;
+    width: 263px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.profession__item {
+    width: 183px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.footer{
+    padding-top: 150px;
+}
+
+.footer__title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    padding-bottom: 40px;
+}
+
+.footer__border-top{
+    border-top: 1px solid #aaa;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+ .footer__inner{
+    padding: 0 50px;
+}
+
+.footer__text{
+    width: 360px;
+    padding-bottom: 60px;
+}
+
+.footer__img-item{
+    margin-right: 13px;
+}
+
+.footer__right{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__input-name{
+    width: 530px;
+    padding: 21px 30px;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.footer__input-email{
+    width: 530px;
+    padding: 21px 30px;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.footer__input-message{
+    size: 530px 231px;
+    border: none;
+    position: relative;
+    display: block;
+    resize: none;
+    padding: 21px 30px;
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.submit{
+    align-items: center;
+    padding: 25px 82px;
+    width: 235px;
+    height: 80px;
+    color: #FFFFFF;
+    background: #2d2d2d;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 70px;
+    transition: all .2s;
+}
+
+.submit:hover{
+    background: #444444;
+}
